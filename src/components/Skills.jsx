@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 
 /* ── Skill data ── */
 const skills = [
-  { name: 'React', color: '#61dafb', svg: <img alt="hello" /> },
+  { name: 'React', color: '#61dafb', svg: <img src='./src/assets/skills/react-js-icon-B2YyJmxM.png' alt="react js " /> },
   { name: 'Node.js', color: '#68a063', svg: <svg viewBox="0 0 24 24" width="26" height="26" fill="#68a063"><path d="M12 1.85l-9 5.2v10.4l9 5.2 9-5.2V7.05z" opacity=".2" /><path d="M12 1.85l-9 5.2v10.4l9 5.2 9-5.2V7.05L12 1.85zm7 14.7L12 20.3l-7-3.75V8.25L12 4.5l7 3.75v8.3z" /><text x="12" y="15.5" textAnchor="middle" fontSize="6" fill="#68a063" fontWeight="bold" fontFamily="monospace">N</text></svg> },
   { name: 'MongoDB', color: '#4db33d', svg: <svg viewBox="0 0 32 32" width="26" height="26"><path d="M16 2c-2 6-6 9-6 15s2.5 9 6 11c3.5-2 6-5 6-11S18 8 16 2z" fill="#4db33d" /><line x1="16" y1="24" x2="16" y2="30" stroke="#a8c7fa" strokeWidth="1.5" /></svg> },
   { name: 'JavaScript', color: '#f7df1e', svg: <svg viewBox="0 0 32 32" width="28" height="28"><rect width="28" height="28" x="2" y="2" fill="#f7df1e" rx="2" /><text x="16" y="24" textAnchor="middle" fontSize="14" fill="#000" fontWeight="bold" fontFamily="monospace">JS</text></svg> },

@@ -103,14 +103,9 @@ export default function Hero() {
         {/* Description */}
         <p className="font-grotesk text-white/60 max-w-md text-sm leading-relaxed mb-2"
           style={{ animation: 'slideUp 0.5s ease 0.55s both' }}>
-          Full Stack Developer building scalable, production-ready web applications
-          with React.js, Node.js, MongoDB, MySQL, and Express.js.
+          Full Stack Developer skilled in React.js, Tailwind CSS, Node.js, Express.js, MySQL, and MongoDB — building scalable and production-ready web applications.
         </p>
-        <p className="font-grotesk text-white/60 max-w-md text-sm leading-relaxed mb-8"
-          style={{ animation: 'slideUp 0.5s ease 0.65s both' }}>
-          I deliver secure backend architecture, third-party API integrations,
-          and performant user interfaces for SaaS, e-commerce, and B2B platforms.
-        </p>
+
 
         {/* CTA buttons */}
         <div className="flex flex-wrap items-center gap-4"
