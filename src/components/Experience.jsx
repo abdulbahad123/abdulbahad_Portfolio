@@ -1,33 +1,33 @@
 const experiences = [
   {
-    role:    'Full Stack Developer',
-    company: 'FreelanceStudio',
-    location:'Remote',
-    dates:   'Jan 2024 — Present',
+    role: 'FullStack Developer',
+    company: 'wezan technologies',
+    location: 'onsite , chennai , india',
+    dates: 'Nov 2025 — Present',
     bullets: [
       'Architected and deployed 3+ production web apps using React + Node.js with RESTful APIs',
       'Reduced client page load times by 40% through code-splitting and lazy loading strategies',
       'Built Express & MongoDB APIs handling 10k+ daily requests with JWT auth and RBAC',
       'Implemented full deployment pipelines with CI/CD on Vercel and Railway platforms',
     ],
-    tags: ['React', 'Node.js', 'MongoDB', 'Express', 'JWT'],
+    tags: ['React', 'Node.js', 'MongoDB', 'Express', 'JWT', 'PHP'],
   },
   {
-    role:    'MERN Stack Developer',
-    company: 'InnovateTech Labs',
-    location:'Onsite, Chennai, India',
-    dates:   'Feb 2026 — Mar 2026',
+    role: 'Frontend Developer Intern',
+    company: 'Horizonium solution',
+    location: 'onsit , Trichy,india',
+    dates: 'Feb 2026 — Mar 2026',
     bullets: [
       'Developed responsive web applications using React.js with reusable component-based architecture, building dynamic UIs consumed by RESTful API services built with Node.js and Express.js',
       'Modelled and managed MongoDB collections with optimized schemas ensuring scalable and efficient data handling for user management, service listings, and contact workflows across the production platform',
     ],
-    tags: ['React.js', 'Vue.js', 'Node.js', 'Express.js', 'MongoDB'],
+    tags: ['React.js', 'tailwind css', 'js', 'css'],
   },
   {
-    role:    'Frontend Developer Intern',
-    company: 'OpenBuild Agency',
-    location:'Remote',
-    dates:   'Jun 2023 — Dec 2023',
+    role: 'Frontend Developer Intern',
+    company: 'jamal mohamed college ',
+    location: 'trichy',
+    dates: 'Jun 2023 — Dec 2023',
     bullets: [
       'Developed responsive UI components using React and Tailwind CSS for SaaS clients',
       'Collaborated with design team to achieve 95+ Lighthouse performance scores',
@@ -41,7 +41,7 @@ export default function Experience() {
   return (
     <section id="experience" className="py-28 px-6 relative">
       <div className="absolute left-0 top-1/3 w-96 h-96 rounded-full pointer-events-none"
-           style={{background:'radial-gradient(ellipse, rgba(124,58,237,0.12) 0%, transparent 70%)'}} />
+        style={{ background: 'radial-gradient(ellipse, rgba(124,58,237,0.12) 0%, transparent 70%)' }} />
 
       <div className="max-w-5xl mx-auto relative">
         {/* Heading */}
@@ -51,22 +51,22 @@ export default function Experience() {
             <span className="text-white">Experience</span>
             <span className="grad-text">&gt;</span>
           </h2>
-          <div className="flex-1 h-px" style={{background:'linear-gradient(90deg,rgba(124,58,237,0.5),transparent)'}} />
+          <div className="flex-1 h-px" style={{ background: 'linear-gradient(90deg,rgba(124,58,237,0.5),transparent)' }} />
         </div>
 
         {/* Timeline */}
         <div className="relative">
           {/* Vertical gradient line — positioned precisely */}
           <div className="absolute"
-               style={{
-                 left: '20px',
-                 top: '12px',
-                 bottom: '12px',
-                 width: '2px',
-                 background: 'linear-gradient(to bottom, #7C3AED, #3B82F6 50%, transparent)',
-               }} />
+            style={{
+              left: '20px',
+              top: '12px',
+              bottom: '12px',
+              width: '2px',
+              background: 'linear-gradient(to bottom, #7C3AED, #3B82F6 50%, transparent)',
+            }} />
 
-          <div className="flex flex-col gap-10" style={{paddingLeft:'56px'}}>
+          <div className="flex flex-col gap-10" style={{ paddingLeft: '56px' }}>
             {experiences.map(({ role, company, location, dates, bullets, tags }, idx) => (
               <div key={company + role} className={`relative reveal delay-${(idx + 1) * 100}`}>
 
