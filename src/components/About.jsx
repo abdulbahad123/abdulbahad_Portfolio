@@ -78,7 +78,7 @@ export default function About() {
             <div className="avatar-border rounded-lg w-52 h-60 flex items-center justify-center overflow-hidden"
               style={{ background: 'rgba(124,58,237,0.08)' }}>
               <div className="flex flex-col items-center gap-3 text-white/25">
-                <img src="./src/assets/bahad.jpg" alt="abdul bahad" />
+                <img src="/assets/bahad.jpg" alt="abdul bahad" />
 
               </div>
             </div>

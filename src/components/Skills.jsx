@@ -2,17 +2,17 @@ import { useEffect, useRef } from 'react';
 
 /* ── Skill data ── */
 const skills = [
-  { color: '#61dafb', svg: <img src='./src/assets/skills/react-js-icon-B2YyJmxM.png' alt="react js " /> },
-  { color: '#68a063', svg: <img src="./src/assets/skills/nodejs.png " alt="" /> },
-  { color: '#4db33d', svg: <img src="./src/assets/skills/MongoDB-CzrTCLas.png" alt="" /> },
-  { color: '#f7df1e', svg: <img src="./src/assets/skills/js-Bu6ZFjaT.png" alt="" /> },
-  { color: '#3178c6', svg: <img src="./src/assets/skills/typescript-icon-removebg-preview.png" alt="" /> },
-  { color: '#e34f26', svg: <img src="./src/assets/skills/html-5-CKyDEyeN.png" alt="" /> },
-  { color: '#264de4', svg: <img src="./src/assets/skills/css-icon-removebg-preview.png" alt="" /> },
-  { color: '#38bdf8', svg: <img src="./src/assets/skills/tailwind.png" alt="" /> },
-  { color: '#f05032', svg: <img src="./src/assets/skills/github-6980894_640-B6f_48iH.png" alt="" /> },
-  { color: '#c084fc', svg: <img src="./src/assets/skills/express.png" alt="" /> },
-  { color: '#a259ff', svg: <img src="./src/assets/skills/figma-icon-removebg-preview.png" alt="" /> },
+  { color: '#61dafb', svg: <img src='/assets/skills/react-js-icon-B2YyJmxM.png' alt="react js " /> },
+  { color: '#68a063', svg: <img src="/assets/skills/nodejs.png " alt="" /> },
+  { color: '#4db33d', svg: <img src="/assets/skills/MongoDB-CzrTCLas.png" alt="" /> },
+  { color: '#f7df1e', svg: <img src="/assets/skills/js-Bu6ZFjaT.png" alt="" /> },
+  { color: '#3178c6', svg: <img src="/assets/skills/typescript-icon-removebg-preview.png" alt="" /> },
+  { color: '#e34f26', svg: <img src="/assets/skills/html-5-CKyDEyeN.png" alt="" /> },
+  { color: '#264de4', svg: <img src="/assets/skills/css-icon-removebg-preview.png" alt="" /> },
+  { color: '#38bdf8', svg: <img src="/assets/skills/tailwind.png" alt="" /> },
+  { color: '#f05032', svg: <img src="/assets/skills/github-6980894_640-B6f_48iH.png" alt="" /> },
+  { color: '#c084fc', svg: <img src="/assets/skills/express.png" alt="" /> },
+  { color: '#a259ff', svg: <img src="/assets/skills/figma-icon-removebg-preview.png" alt="" /> },
 ];
 
 /* Positions scattered across the section */
